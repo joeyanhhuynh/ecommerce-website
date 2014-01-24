@@ -116,7 +116,23 @@ a:link{
 	text-decoration: none;	
 	border-bottom: 0.1em solid rgba(244,163,192,1);
 	transition: all 250ms linear;
-	
 }
+
+ul {
+	list-style-type: none;
+}
+
+ul li{
+	position: relative;
+}
+
+ul li:before {
+	content:"☞"	;
+	color: rgba(106,133,25,1);
+	position:absolute;
+	left: -1em;
+}
+
+
 
 
