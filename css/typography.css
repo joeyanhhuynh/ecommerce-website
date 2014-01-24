@@ -1,7 +1,7 @@
 /*
   Colour Palette
   - Dark green: rgba(106,133,25,1)
-  - Dark red: #600 - rgb(100, 0, 0)
+  - light pink: rgba(244,163,192,1)
  */
 
 
@@ -72,6 +72,19 @@ h1, h2, h3, h4, h5, h6,
 }
 
 ::selection{
-	background-color: #393;
+	background-color: rgba(106,133,25,1);
 	color: #fff;
 }
+
+blockquote cite {
+	font-family: Arial, Arial, Helvetica, sans-serif;
+	color: rgba(244,163,192,1);
+	font-size: 14px;
+	float:right;
+	margin:  0px 53px 0px -65px;
+}
+ 
+blockquote cite:before {
+	content: "\2014 \2009";
+}
+
