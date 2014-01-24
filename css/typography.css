@@ -10,6 +10,11 @@ html {
   font: normal 100%/1.5 Arial, sans-serif,serif; /* 16px/24px */
 }
 
+body{
+	background-color: #000;
+	color: #FFF;
+}
+
 h1, h2, h3, h4, h5, h6,
 p, ul, ol, dl,
 blockquote, table, hr {
@@ -87,4 +92,31 @@ blockquote cite {
 blockquote cite:before {
 	content: "\2014 \2009";
 }
+
+table { 
+font-family: Helvetica, Arial, sans-serif; 
+width: 40em; 
+border-collapse: 
+collapse; border-spacing: 0; 
+}
+
+td, th { border: 1px solid #CCC; height: 30px; } 
+
+th {
+font-weight: bold; 
+}
+
+td {
+text-align: center; 
+}
+
+a,
+a:link{
+	color: rgba(244,163,192,1);
+	text-decoration: none;	
+	border-bottom: 0.1em solid rgba(244,163,192,1);
+	transition: all 250ms linear;
+	
+}
+
 
