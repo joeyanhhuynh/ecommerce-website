@@ -1,3 +1,19 @@
-@charset "UTF-8";
-/* CSS Document */
+html {
+  font: normal 100%/1.5 Arial, sans-serif,serif; /* 16px/24px */
+}
 
+.list-group {
+	list-style-type: none;
+}
+
+.list-group-item {
+	display:block;
+}
+
+.list-group-item::before {
+	content:"";
+}
+
+.list-group-item-inline {
+	display: inline-block;
+}
