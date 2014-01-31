@@ -1,3 +1,24 @@
-@charset "UTF-8";
-/* CSS Document */
+html {
+  font: normal 100%/1.5 Arial, sans-serif,serif; /* 16px/24px */
+}
 
+.btn,
+.btn:link,
+.btn:visited {
+		display: inline-block;
+		padding: 0.75em 1em;
+		background-color: #8fb0b6;
+		background-image: linear-gradient( to bottom, #8fb0b6, #6dz0z4);
+		border-radius: 6px;
+		box-shadow: 1px 1px 4px egba(0,0,0,0.5);
+		border: 0;
+		color:#fff;
+		font-weight: bold;
+}
+
+.btn-alt,
+.btn-alt:link,
+.btn-alt:visited {
+	background-color: #d8ce95;
+	background-image: linear-gradient(to bottom, #d8ce95, #b6ad73);
+}
