@@ -1,0 +1,26 @@
+.media {
+	float:right;
+}
+
+.media-img-stacked{
+	float:none;
+	margin: 0;
+}
+
+.media-body {
+	overflow: hidden;
+}
+
+html {
+  font: normal 100%/1.5 Arial, sans-serif,serif; /* 16px/24px */
+}
+
+.media-right{
+	float:right;
+}
+
+.wraft
+{
+	display:block;
+	margin:auto;
+	}
