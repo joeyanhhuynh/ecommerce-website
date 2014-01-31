@@ -1,7 +1,8 @@
 /*
   Colour Palette
-  - Dark green: rgba(106,133,25,1)
-  - light pink: rgba(244,163,192,1)
+  - Dark blue: rgba(58,100,126,1)
+  - orange: rgba(199,120,54,1)
+  - light blue: rgba(143,176,182,1)
  */
 
 
@@ -11,8 +12,8 @@ html {
 }
 
 body{
-	background-color: #000;
-	color: #FFF;
+	background-color: #fff;
+	color: #000;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -65,11 +66,11 @@ small, .milli {
 h1, h2, h3, h4, h5, h6,
 .brand{
 	font-family: Helvetica, sans-erif;
-	color: rgba(106,133,25,1);
+	color: rgba(58,100,126,1);
 }
 
 .brand-colour{
-	color:rgba(106,133,25,1);
+	color:rgba(58,100,126,1);
 }
 
 .brand-family{
@@ -77,13 +78,13 @@ h1, h2, h3, h4, h5, h6,
 }
 
 ::selection{
-	background-color: rgba(106,133,25,1);
+	background-color: rgba(58,100,126,1);
 	color: #fff;
 }
 
 blockquote cite {
 	font-family: Arial, Arial, Helvetica, sans-serif;
-	color: rgba(244,163,192,1);
+	color: rgba(199,120,54,1);
 	font-size: 14px;
 	float:right;
 	margin:  0px 53px 0px -65px;
@@ -112,9 +113,9 @@ text-align: center;
 
 a,
 a:link{
-	color: rgba(244,163,192,1);
+	color: rgba(199,120,54,1);
 	text-decoration: none;	
-	border-bottom: 0.1em solid rgba(244,163,192,1);
+	border-bottom: 0.1em solid rgba(199,120,54,1);
 	transition: all 250ms linear;
 }
 
@@ -128,7 +129,7 @@ ul li{
 
 ul li:before {
 	content:"☞"	;
-	color: rgba(106,133,25,1);
+	color: rgba(143,176,182,1);
 	position:absolute;
 	left: -1em;
 }
