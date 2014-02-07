@@ -2,3 +2,27 @@
 	float:right;
 	list-style-type: none;
 }
+
+h1,
+.main,
+.copyright{
+	width: 90%;
+	margin: 0 5%;
+	margin: 0 auto;
+}
+
+html, body{
+		width: 100%;
+		font-family: sans-serif;
+		margin: 0;
+		padding: 0;
+}
+
+header{
+		overflow: auto;
+	}
+
+.logo
+{
+	width: 200px;
+}
