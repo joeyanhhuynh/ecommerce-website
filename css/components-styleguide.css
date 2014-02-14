@@ -79,6 +79,11 @@ html, body{
 		float:left;
 		background-color: #fff;
 }
+
+.center{
+	text-align:center;
+}
+	
 .unit-s-1{
 	width:100%;
 }
