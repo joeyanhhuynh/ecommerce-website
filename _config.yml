@@ -1,6 +1,6 @@
 <p>markdown: red carpet</p>
 <p>baseurl: /ecommerce-website</p>
-<p>permalink: lovely</p>
+<p>exclude: [ ' Rename.md ' ]</p>
 <!doctype html>
 <html>
 <head>
