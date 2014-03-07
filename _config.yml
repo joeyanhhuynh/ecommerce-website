@@ -1,13 +1,3 @@
-<p>markdown: red carpet</p>
-<p>baseurl: /ecommerce-website</p>
-<p>exclude: [ ' Rename.md ' ]</p>
-<!doctype html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Untitled Document</title>
-</head>
-
-<body>
-</body>
-</html>
+markdown: redcarpet
+baseurl: /ecommerce-website
+exclude: ['Rename.md']
