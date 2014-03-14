@@ -1,3 +1,80 @@
 @charset "UTF-8";
 /* CSS Document */
 
+.current {
+	background-color: #f28554;
+	border-top: 1px solid #fff;
+}
+
+
+.nav-btn,
+.nav-btn:link,
+.nav-btn:visited{
+	display: block;
+	height: 40px;
+	width: 40px;
+	position: absolute;
+	top: 10px;	
+	right: 5%;
+	
+	background: #fff url('../images/nav-icon.svg') no-repeat center center;
+	/* background-color || background-image || background-repeat || background-position*/
+}
+
+.nav-btn:hover,
+.nav-btn:focus,
+.nav-btn:active{
+	background-color: #ccc;
+}
+
+.nav a, 
+.nav a:link,
+.nav a:visited{
+	display: block;
+	padding: 1rem;
+	text-align:center;
+	color: #fff;
+	text-decoration: none;
+	background-color: #f28554;
+	border-top: 1px solid #fff;
+	/* border-width || border-style || border-color */
+}
+
+
+.navbot a, 
+.navbot a:link,
+.navbot a:visited{
+	display: block;
+	padding: 1rem;
+	text-align:center;
+	color: #fff;
+	text-decoration: none;
+	/* border-width || border-style || border-color */
+}
+
+
+.nav li.selected a { 
+		background-color: #333;
+		-wbkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-border-radius: 20px;
+	border-radius: 20px;
+ } 
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active{
+	background-color: #333;
+		-wbkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-border-radius: 20px;
+	border-radius: 20px;
+}
+
+.navbot a:hover,
+.navbot a:focus,
+.navbot a:active{
+	background-color: #333;
+}
