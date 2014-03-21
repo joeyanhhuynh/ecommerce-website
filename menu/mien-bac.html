@@ -1,0 +1,19 @@
+---
+layout: menu
+title: Mien Bac
+bannertext: WELCOME TO JOJO'S WEBSITE
+showbanner: yes
+---
+
+<h1>Mien Bac</h1>
+
+<div class="grid">
+{% for menu in site.categories.mien-bac %}
+<div class="menu">
+<a href="{{site.baseurl}}{{menu.url}}">
+<img class="img-flex" width="200px" src="{{site.baseurl}}/images/	{{menu.image}}" alt="Photo of {{menu.title}}"></br>
+{{menu.title}}
+</a>
+ </div>
+{% endfor %}
+</div>

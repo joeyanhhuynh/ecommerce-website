@@ -1,0 +1,14 @@
+---
+layout: default
+---
+	<nav>
+	<ul>
+        <li>
+          <a class="{% if page.url contains 'mien-bac' %}current{% endif %}" href="{{site.baseurl}}/menu/mien-bac.html">Mien Bac</a>
+        </li>
+        <li>
+          <a class="{% if page.url contains 'mien-nam' %}current{% endif %}" href="{{site.baseurl}}/menu/mien-nam.html">Mien Nam</a>
+        </li>
+      </ul>
+</nav>
+{{content}}

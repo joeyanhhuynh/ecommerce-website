@@ -1,6 +1,11 @@
 @charset "UTF-8";
 /* CSS Document */
 
+.menu
+{
+	float:left;
+	margin:10px;
+}
 .current {
 	background-color: black !important;
 	border-top: 1px solid #fff;

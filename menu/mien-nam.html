@@ -1,0 +1,23 @@
+---
+layout: menu
+title: Mien Nam
+bannertext: WELCOME TO JOJO'S WEBSITE
+showbanner: yes
+---
+
+<h1>Mien Nam</h1>
+
+<div class="grid">
+<ul>
+{% for menu in site.categories.mien-nam %}
+<div class="menu">
+<li>
+<a href="{{site.baseurl}}{{menu.url}}">
+<img class="img-flex" width="200px" src="{{site.baseurl}}/images/	{{menu.image}}" alt="Photo of {{menu.title}}"></br>
+{{menu.title}}
+</a>
+</li>
+ </div>
+{% endfor %}
+</ul>
+</div>
