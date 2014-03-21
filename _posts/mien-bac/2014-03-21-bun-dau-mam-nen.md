@@ -7,7 +7,5 @@ category: mien-bac
 image: bundaumamnem.jpg
 ---
 
-Theo một công thức từ báo điện tử VnExpress:[cần dẫn nguồn]
-Cho lượng dầu vừa phải vào chảo. Dầu nóng, cho đậu vào rán sơ. Miếng đậu hơi cứng, vớt ra (nếu thích ăn giòn, cho dầu ngập xâm xấp miếng đậu, trở đều, khi đậu phồng vàng, vớt ra). Cho đậu vào giấy thấm dầu, tắp bếp.
-Cho tỏi, ớt vào mắm tôm, vắt chanh cho mắm nổi bọt, đánh tan đều. Cho thêm vào một ít đường, nêm vừa miệng. Thực ra còn có thêm một thứ nước gia vị khác ngoài những công thức chung trên, đó là bí quyết của người làm bún đậu mắm tôm.
-Xếp lá tía tô ra đĩa, xen kẽ với lá kinh giới, xếp đậu phụ lên trên. Dùng nóng với bún và mắm tôm đã pha.
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
