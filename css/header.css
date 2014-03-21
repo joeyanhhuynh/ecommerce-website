@@ -2,7 +2,7 @@
 /* CSS Document */
 
 .current {
-	background-color: #f28554;
+	background-color: black !important;
 	border-top: 1px solid #fff;
 }
 

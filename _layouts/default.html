@@ -24,18 +24,7 @@
     <div class="unit unit-s-1 unit-m-1 unit-l-1-3">
       <h1 class="push-0"><img class="img-flex logo" src="{{site.baseurl}}/images/logo.png" alt="Jojo"></h1>
     </div>
-    <nav class="unit unit-s-1 unit-m-1 unit-l-2-3">
-      <ul class="list-group giga brand-family push-0 nav">
-        <li class="list-group-item list-group-item-inline">
-          <a class="{% if page.url == '/index.html' %}current{% endif %}" href="{{site.baseurl}}/index.html">Home</a>
-        </li>
-        <li class="list-group-item list-group-item-inline">
-          <a href="{{site.baseurl}}/menu.html">Menu</a>
-        </li>
-        <li class="list-group-item list-group-item-inline">
-          <a class="{% if page.url == '/about.html' %}current{% endif %}" href="{{site.baseurl}}/about.html/">About</a>
-        </li>
-      </ul>
+	{% include nav.html navclass='nav-top' %}
     </nav>
   </div>
  
