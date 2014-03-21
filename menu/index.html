@@ -6,27 +6,24 @@ showbanner: yes
 ---
 <h1>Menu</h1>
 
-
- <div class="grid">
-  <div class="gutter unit unit-s-1 unit-m-1-3 unit-l-1-3">
-    {% include small-promo.html title="Promo 1" desc="Banh-Beo!" image="banhbeo.jpg" %}
-  </div>s
-  <div class="gutter unit unit-s-1 unit-m-1-3 unit-l-1-3">
-    {% include small-promo.html title="Promo 2" desc="Banh-Xeo!" image="banhxeo.jpg" %}
-  </div>
-  <div class="gutter unit unit-s-1 unit-m-1-3 unit-l-1-3">
-    {% include small-promo.html title="Promo 3" desc="Cha-Gio!" image="chagio.jpg " %}
-  </div>
+<div class="grid">
+<ul>
+{% for menu in site.categories.mien-bac %}
+<div class="gutter unit unit-s-1 unit-m-1-3 unit-l-1-3">
+<li>
+<img class="img-flex" width="200px" src="{{site.baseurl}}/images/	{{menu.image}}" alt="Photo of {{menu.title}}"></br>
+{{menu.title}}
+</li>
+ </div>
+{% endfor %}
+</ul>
 </div>
 
 <div class="grid">
-  <div class="gutter unit unit-s-1 unit-m-1-3 unit-l-1-3">
-    {% include small-promo.html title="Promo 1" desc="Fantastico!" image="fryfish.jpg" %}
-  </div>
-  <div class="gutter unit unit-s-1 unit-m-1-3 unit-l-1-3">
-    {% include small-promo.html title="Promo 2" desc="Super-Duper!" image="banhbotloc.jpg" %}
-  </div>
-  <div class="gutter unit unit-s-1 unit-m-1-3 unit-l-1-3">
-    {% include small-promo.html title="Promo 3" desc="Amaze-balls!" image="goikhobo.jpg " %}
-  </div>
+{% for menu in site.categories.mien-nam %}
+<div class="gutter unit unit-s-1 unit-m-1-3 unit-l-1-3">
+<img class="img-flex" width="200px" src="{{site.baseurl}}/images/	{{menu.image}}" alt="Photo of {{menu.title}}"></br>
+{{menu.title}}
+ </div>
+{% endfor %}
 </div>
