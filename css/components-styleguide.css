@@ -1,9 +1,9 @@
 
 html, body{
-		width: 100%;
+		width: 90%;
 		font-family: Arial, Helvetica, sans-serifsan-serif;
-		margin: 0;
-		padding: 0;
+		margin: 10px;
+		padding: 10px;
 }
 
 
@@ -71,8 +71,7 @@ html, body{
 }
 
 .grid{
-	border:1px solid red;
-	overflow: hidden;
+overflow: hidden;
 }
 
 .unit{
