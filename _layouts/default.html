@@ -4,6 +4,12 @@
 <meta charset="UTF-8">
 <title>{{page.title}}</title>
 
+	<meta name="handheldfriendly" content="true">
+	<meta name="mobileoptimized" content="240">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	
+<link href="{{site.baseurl}}/css/product-details.css" rel="stylesheet">
+	
 <link href="{{site.baseurl}}/css/typography.css" rel="stylesheet">
 <link href="{{site.baseurl}}/css/buttons.css" rel="stylesheet">
 <link href="{{site.baseurl}}/css/grid.css" rel="stylesheet">
@@ -14,6 +20,7 @@
 <link href="{{site.baseurl}}/css/small-promo.css" rel="stylesheet">
 <link href="{{site.baseurl}}/css/big-promo.css" rel="stylesheet">
 <link href="{{site.baseurl}}/css/components-styleguide.css" rel="stylesheet">
+<link href="{{site.baseurl}}/css/search-field.css" rel="stylesheet">
 
 </head>
 
@@ -26,6 +33,12 @@
     </div>
 
 	{% include nav.html navclass='nav-top' %}
+	<div class="search-field">
+		<form method="get" action="{{site.baseurl}}/search/">
+		<input type="text" name="q" size="21" maxlength="120">
+		<input type="submit" value="search" class="tfbutton">
+		</form>
+	</div>
 
   </div>
  
