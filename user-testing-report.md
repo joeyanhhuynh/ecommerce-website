@@ -33,11 +33,12 @@ User testing was conducted by Joey Anh Huynh on March 28 between the times of 14
 
 ### {Jordan Doe}
 
-- {She clicked on the link as expected…}
-- {He had troubles completing a specific task…}
-- {She asked these questions…}
-- {Fill in any observations that were important/relevant…}
-- etc.
+-  SHe clicked on the link as expected
+-  SHe had not troubles completing a specific task:
+-  SHe asked these questions: She asked about the cart, and the name of the product in the small-promo
+-  Should have the name under the products. Click the food the it will link to each page.
+-  Create Cart button/Login 
+-  She wants the description text of small-promo have to be wrap around the images.
 
 ---
 

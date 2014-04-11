@@ -1,6 +1,6 @@
 ---
 layout: menu-detail
-title: Thic Nuong
+title: Thit Nuong
 meta: 
 source: 
 category: mien-bac
