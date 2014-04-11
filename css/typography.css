@@ -130,6 +130,29 @@ a:link{
 	transition: all 250ms linear;
 }
 
+a:hover,
+a:active{
+	
+	ouline: none;
+}
+
+a:focus,
+input:focus,
+button:focus {
+	/* The focus rectangle must always be visible for keyboard states*/
+	outline: 3px splid #000;
+}
+
+.block-link {
+	display: block;
+}
+
+sup,
+sub{
+	line-height:1;
+}
+
+
 ul {
 	list-style-type: none;
 }
